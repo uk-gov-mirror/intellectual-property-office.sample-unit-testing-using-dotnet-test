@@ -8,12 +8,12 @@ TODO: Guide users through getting your code up and running on their own system. 
 1.	Installation process
 
 - Clone repo to local and push to your own repo. Not accepting PRs to this repo
-- Use preferred IDE
+- Use preferred IDE (typically VSCode)
 
 2.	Software dependencies
 
-- dotnet 8 sdk https://dotnet.microsoft.com/en-us/download/dotnet/8.0 (cross-platform)
-- The project uses xUnit as the test library
+- dotnet 10 sdk https://dotnet.microsoft.com/en-us/download/dotnet/10.0 (cross-platform)
+- The project uses xUnit as the test library (Restore command below will retrieve this nuget package)
 
 3.	Latest releases
 N/A

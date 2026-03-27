@@ -1,5 +1,6 @@
 using Xunit;
 using Prime.Services;
+using PrimeServiceType = Prime.Services.PrimeService;
 
 namespace Prime.UnitTests.Services
 {
@@ -8,7 +9,7 @@ namespace Prime.UnitTests.Services
         [Fact]
         public void IsPrime_InputIs1_ReturnFalse()
         {
-            var primeService = new PrimeService();
+            var primeService = new PrimeServiceType();
             bool result = primeService.IsPrime(1);
 
             Assert.False(result, "1 should not be prime");
